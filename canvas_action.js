@@ -1,7 +1,5 @@
 "use strict";
 
-
-
 var c = document.getElementById( "topCanvas" );
 var ctx = c.getContext( "2d" );
 ctx.lineWidth = 2;
@@ -785,6 +783,13 @@ objNameSpace.Eraser = Eraser;
 objNameSpace.Fill=Fill;                  
 
 var pos;
+
+var curDrawing1;
+var curObject1 = null;
+var objects1 = [];
+var curPos1 = 0;
+var curStyle1 = "None";
+var curStyles1 = [];
 
 function trackPosition( event ) {
     pos = getPos( event );

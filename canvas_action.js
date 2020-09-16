@@ -784,11 +784,28 @@ objNameSpace.Fill=Fill;
 
 var pos;
 
-/*sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-sssssssssssssssssssssssssssdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-dfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-sdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-sdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff*/
+/*
+
+this graphics editor was created as summer practice in the first year of studing by the command with 10 people. Their names you can find
+in the README.md file.
+
+Ивлев Александр — @DrAleksan
+Эсенбаев Нурсултан — @eanea
+Синявская Анна — @anyasinyavskaya
+Хурчаков Роман — @romahurchakov
+Матюхина Виктория — @MarietteCh
+Мельников Владислав — @BatrSens
+Гимранова Екатерина — @kategimranova
+Сорова Анна — @MagicMumble
+Зиганшин Тимур — @Timur-Ziganshin
+Калиниченко Андрей — @zet14
+
+This graphics editor is not always working properly but we tried our best and got positive grades. This project was deleted from the main account
+of our faculty on github, so now it's here on my page. Using this graphics editor you can conduct simple manipulations with the canvas or with the imported
+image. You can save changed image on your local machine. This project makes changes on the one canvas and hide the other one. Therefore you can roll back all
+the changes you made to your image.
+
+*/
 
 function trackPosition( event ) {
     pos = getPos( event );
